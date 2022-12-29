@@ -1,1 +1,1 @@
-# My repository of projects written in Go
+# My Go projects
