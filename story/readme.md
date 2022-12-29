@@ -1,1 +1,1 @@
-Hello
+Welcome to my repository of Go projects.
