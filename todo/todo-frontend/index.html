@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Todo front</title>
+        <script src="resources/index.js"></script>
+        <link rel="stylesheet" href="resources/bootstrap.min.css"/>
+        <link rel="stylesheet" href="resources/index.css"/>
+    </head>
+    <body>
+        <div class="container my-4">
+            <template id="todo-template">
+                <div class="todo-message list-group-item"></div>
+            </template>
+            <div id="todo-container" class="list-group mb-4">
+                <div class="list-group-item disabled">Todos</div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form id="todo-add-form">
+                        <input id="todo-add-input" class="form-control" type="text"/>
+                    </form>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-primary" id="todo-button-clear">Wyczyść</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
